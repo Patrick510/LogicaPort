@@ -1,17 +1,19 @@
-Algoritmo "semnome"
+Algoritmo "aniversário"
 
 Var
-// Seção de Declarações das variáveis 
-a,b,c: inteiro
+ano,calcan:inteiro
+
+
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-a <- 2
-b <- 3
-c <- 5
+escreva("Digite o ano que nasceu: ")
+leia(ano)
 
-escreval(c<=b^a)
-escreval(b<=c%2)
-escreval(1<=c%2)
+calcan <- (2022 - ano)
 
-escreval(nao(a=b) ou (c>a)))
+se calcan <= 0 entao
+escreval("Você nasceu rescentemente não é?")
+senao
+escreval("Sua idade é ",calcan)
+fimse
+
 Fimalgoritmo
