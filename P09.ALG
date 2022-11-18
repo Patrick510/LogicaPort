@@ -1,15 +1,15 @@
 Algoritmo "convertendo fareihneuit celsicus"
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 farh,celc: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("Quantos graus em farenheit esta fazendo: ")
 leia(farh)
 
 celc <- (farh - 32)/1.8
 
-escreval("A temperatura em celcius é:",celc)
+escreval("A temperatura em celcius Ã©: ",celc:4:1)
 
 Fimalgoritmo
