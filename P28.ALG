@@ -35,23 +35,19 @@ escreva("=> ")
 leia(esc)
 
 
-
-
-se (sexo = "m") >= (idade = 18) e (cor = 2) entao
+se (sexo = "m") e (idade >= 18) e (cor = 2) entao
 homcast <- homcast + 1
 fimse
 
-se ((sexo = "f") >= (idade >= 25)) ou ((sexo = "f") <= (idade <= 30)) e (cor = 4) entao
+se (sexo = "f") e (idade >= 25) e (idade <= 30) e (cor = 4) entao
 mulloir <- mulloir + 1
 fimse
 
-//se (sexo = "f") entao
-//homcast <- homcast - 1
-//fimse
-
 ate esc = "n"
 
-escreval("Total de homens maiores que 18 com cabelo castanho é:",homcast)
+limpatela
 
-escreval("Total de mulheres entre 25 a 30 anos com cabelo loiro é:",mulloir)
+escreval("Total de homens maiores que 18 com cabelo castanho Ã©:",homcast)
+
+escreval("Total de mulheres entre 25 a 30 anos com cabelo loiro Ã©:",mulloir)
 Fimalgoritmo
